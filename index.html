@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jegyvásárlás </title>
+</head>
+<body>
+    <div>
+        <h1>Jegyvásárlás kosárlabda mérkőzésre</h1>
+    </div>
+    <div id="elso">
+        <p id="kozep"><span class="szin">Jegy áraink:</span></p>
+        <ul>
+            <li>Felnőtt: 4000Ft</li>
+            <li>Diák: 2000Ft</li>
+        </ul>
+        <span class="szin"><u>Helyszín:</u></span>Nyíregyházi Sportcentrum (Nyíregyháza)
+        <br>
+        <br>
+        <span class="szin"><u>Időpont:</u></span>2022.04.15, 18:00
+    </div>
+    <div id="doboz1">
+        <p>Felnőtt vagy diák?</p>
+        <label for="felnott">felnőtt</label>
+        <input type="radio" name="jegy" id="felnott" checked>
+        <label for="diak">diák</label>
+        <input type="radio" name="jegy" id="diak">
+     
+       
+
+    </div>
+
+<br>
+<div id="doboz2">
+     <label for ="db"><p>Hány darab jegyet szeretne vásárolni?</p></label>
+     <input type="number" id="db">
+</div>
+<div id="doboz3">
+<button id="gomb">Megveszem</button>
+<p>Végösszeg:</p>
+
+<p id="ide"></p>
+</div>
+<br>
+<div id="kepdoboz">
+ <img src="lanyok.jpg">   
+ <img src="basketball.jpg">
+ <img src="match.jpg">
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

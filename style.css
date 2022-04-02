@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(179, 99, 112);
+}
+h1{
+    color:white;
+    text-align: center;
+}
+#doboz1{
+    background-color: pink;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    text-align: center;
+   
+}
+p{
+     font-size: 25px;
+    font-weight: bold;
+    
+}
+#doboz2{
+    background-color: pink;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    text-align: center;
+}
+#doboz3{
+    background-color: pink;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height:100px;
+    text-align: center;
+}
+#kepdoboz{
+    margin:50px;
+    
+}
+img{
+    width: 400px;
+    height:300px;
+    margin-left: 8px;
+
+}
+#elso{
+    background-color: pink;
+   width: 15%;
+    height: 300px;
+    float: left;
+   
+   
+}
+#kozep{
+    text-align: center;
+}
+.szin{
+    font-style: italic;
+    color:rgb(231, 7, 41);
+}
+
